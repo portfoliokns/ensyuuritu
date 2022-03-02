@@ -32,7 +32,6 @@ Partial Class Form1
         Me.btnClear = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.btnCopy = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -124,7 +123,6 @@ Partial Class Form1
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.btnCopy)
-        Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.txtPi)
         Me.GroupBox2.Controls.Add(Me.Label2)
         Me.GroupBox2.Location = New System.Drawing.Point(432, 231)
@@ -133,15 +131,6 @@ Partial Class Form1
         Me.GroupBox2.TabIndex = 9
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "【計算結果】"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 64)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(202, 100)
-        Me.Label4.TabIndex = 5
-        Me.Label4.Text = "【円周率の求め方】" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "　円の面積 :正方形の面積" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "　　　　　＝" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "　青色ドット : 青色＋赤色ドット" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " "
         '
         'btnCopy
         '
@@ -183,6 +172,5 @@ Partial Class Form1
     Friend WithEvents btnClear As Button
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents Label4 As Label
     Friend WithEvents btnCopy As Button
 End Class
