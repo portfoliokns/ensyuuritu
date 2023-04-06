@@ -3,7 +3,7 @@ Public Class Form1
 
     Private PaintingBox As New clsPaintingBox()
     Private MonteCalro As New clsMonteCalro()
-    Private defTrials As Integer = 77775
+    Private defTrials As Integer = 777757
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtPi.Text = ""
